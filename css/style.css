@@ -1,0 +1,48 @@
+/* header*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: black;
+    padding: 5px;
+    height: 75px;
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+.col-25{
+    display: flex;
+    justify-content: flex-end;
+}
+.square{
+    color: white;
+    margin: 7px 7px 0px 0px;
+    background-color: gray;
+    border-radius: 5px;
+}
+.fa-solid{
+    font-size: 15px;
+}
+.fianco, .fa-solid{
+    padding: 6px;
+    height: 24px;
+}
+main {
+    height: calc(100vh - 75px);
+    background-color: black;
+    color: #fff;
+    overflow: auto;
+}
+/*immagini centro*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+main {
+    height: calc(100vh - 75px);
+    background-color: black;
+    color: #fff;
+    overflow: auto;
+}
