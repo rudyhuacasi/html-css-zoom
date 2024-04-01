@@ -6,7 +6,6 @@
 }
 header {
     background-color: black;
-    padding: 5px;
     height: 75px;
 }
 body {
@@ -36,13 +35,32 @@ main {
     overflow: auto;
 }
 /*immagini centro*/
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 main {
     height: calc(100vh - 75px);
     background-color: black;
     color: #fff;
     overflow: auto;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image{
+    margin: 5px;
+    position: relative;
+}
+.picture{
+    width: calc(100vw/9.5);
+    position: relative;
+}
+.microphone{
+    color: white;
+    background-color: rgba(5, 5, 5, 0.401);
+    position: absolute;
+    bottom: 6px;
+    padding-right: 5px;
 }
